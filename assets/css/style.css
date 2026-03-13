@@ -1,7 +1,33 @@
-.players-table,
+table,
 th,
 td {
-  border: 1px, solid, blue;
-  padding: 3px;
-  border-spacing: 3px;
+  border: 2px solid blue;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+table {
+  border: 2px solid red;
+}
+
+thead :nth-child(1) {
+  background-color: blanchedalmond;
+}
+
+tr td:first-child {
+  background-color: aqua;
+}
+
+tfoot :nth-child(1) {
+  background-color: chocolate;
+}
+
+tbody tr:nth-child(even) {
+  background-color: grey;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: cadetblue;
 }
