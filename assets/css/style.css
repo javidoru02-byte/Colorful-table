@@ -31,3 +31,10 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
   background-color: cadetblue;
 }
+caption {
+  color: red;
+}
+
+span {
+  color: blue;
+}
