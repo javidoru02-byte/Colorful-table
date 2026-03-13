@@ -1,0 +1,7 @@
+.players-table,
+th,
+td {
+  border: 1px, solid, blue;
+  padding: 3px;
+  border-spacing: 3px;
+}
